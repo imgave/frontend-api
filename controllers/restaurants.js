@@ -1,5 +1,3 @@
-
-
 import Restaurant from "../models/Restaurants.js";
 
 export const getRestaurants = async (req, res) => {

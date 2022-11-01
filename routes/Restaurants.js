@@ -1,10 +1,8 @@
-//IMPORT
 import { Router } from "express";
 import * as controllers from "../controllers/restaurants.js";
 
 const router = Router();
 
-//ROUTES
 router.get("/", controllers.getRestaurants);
 router.get("/:id", controllers.getRestaurants);
 router.post("/", controllers.createRestaurant);
