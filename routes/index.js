@@ -1,6 +1,6 @@
 //IMPORT
 import { Router } from 'express';
-import restaurantsRoutes from './restaurants .js';
+import restaurantsRoutes from './restaurants.js';
 
 const router = Router()
 
